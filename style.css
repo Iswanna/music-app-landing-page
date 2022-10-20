@@ -1,4 +1,4 @@
-body {
+/* body {
     border: 4px dashed red;
 }
 .container {
@@ -48,7 +48,8 @@ li {
 }
 .footer-flex {
     border: 2px solid red;
-}
+} 
+*/
 /*above is border declaration for the different elements*/
 
 body {
@@ -87,8 +88,8 @@ body {
 .musicapp {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
-    width: 200px;
+    background-color: rgb(184, 89, 197);
+    width: 130px;
 }
 
 .header1 {
@@ -203,6 +204,7 @@ img {
     box-sizing: border-box;
     width: 80vh;
     margin-top: 0px;
+    padding-left: 10px;
 }
 
 .footer-list {
@@ -210,7 +212,11 @@ img {
     display: flex;
     list-style-type: none;
     margin-bottom: 0px;
+    justify-content: space-between;
+    padding: 0px;
+    font-size: 30px;
     
 }
+
 
 
