@@ -1,4 +1,4 @@
-/* body {
+ /* body {
     border: 4px dashed red;
 }
 .container {
@@ -90,6 +90,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(184, 89, 197);
     width: 130px;
+    height: 30px;
+    padding-left: 5px;
 }
 
 .header1 {
@@ -98,7 +100,9 @@ body {
     list-style-type: none;
     padding: 0px;
     width: 800px;
+    height: 40px;
     justify-content: space-between;
+    align-items: center;
     font-weight: bold
 }
 
@@ -108,7 +112,9 @@ body {
     list-style-type: none;
     padding: 0px;
     width: 80px;
+    height: 40px;
     justify-content: space-between;
+    align-items: center;
     font-weight: bold;
 }
 
